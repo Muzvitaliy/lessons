@@ -1,0 +1,42 @@
+@import url("reset.css");
+
+body {
+   font-size: 14px;
+   color: darkblue;
+}
+
+div .text {
+   color: darkblue;
+}
+
+.main-title {
+   color: black;
+   font-size: 30px;
+}
+
+h2 {
+   font-size: 25px;
+   color: red;
+}
+
+.fearplace p {
+   color: darkgoldenrod;
+}
+
+.title + p {
+   color: green;
+}
+
+ol a {
+   color: darkslategrey;
+   font-size: 20px;
+}
+
+.castle .text {
+   color: pink;
+}
+
+.bold > .text {
+   color: darkslategrey;
+}
+
