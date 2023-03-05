@@ -1,0 +1,74 @@
+@import url("reset.css");
+
+body {
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 1.8;
+   color: #6C757D;
+}
+
+h2 {
+   font-size: 25px;
+   line-height: 1.6;
+   color: #212529;
+   font-weight: 700;
+   margin-bottom: 40px;
+}
+
+.content {
+   margin: 0 auto 80px;
+   max-width: 816px;
+}
+
+.purpose-title {
+   max-width: 400px;
+}
+
+.failures-title {
+   max-width: 605px;
+}
+
+.purpose img {
+   margin: 0 auto;
+   display: block;
+   margin-bottom: 80px;
+}
+
+.images {
+   text-align: center;
+   margin-bottom: 80px;
+}
+
+.woman {
+   margin-right: 30px;
+}
+
+p {
+   margin-bottom: 30px;
+}
+
+/* Practice */
+
+.text1 {
+   background-color: #1a2127;
+   color: #fff;
+   max-width: 200px;
+   max-height: 150px;
+   overflow: hidden;
+   margin: 0 0 0 auto;
+}
+
+.text2 {
+   background-color: rgb(29, 80, 95);
+   max-width: 200px;
+   max-height: 150px;
+   overflow: scroll;
+   padding: 10px;
+}
+
+.text3 {
+   display: inline;
+   background-color: pink;
+}
+
