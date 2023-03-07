@@ -1,0 +1,121 @@
+@import url("reset.css");
+
+body {
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 1.8;
+   color: #6C757D;
+}
+
+[class*="__container-big"] {
+   max-width: 1240px;
+   margin: 0 auto;
+}
+
+[class*="__container-small"] {
+   max-width: 816px;
+   margin: 0 auto;
+}
+
+h2 {
+   font-size: 25px;
+   line-height: 1.6;
+   color: #212529;
+   font-weight: 700;
+   margin-bottom: 40px;
+}
+
+.text,
+section,
+.images {
+   margin-bottom: 80px;
+}
+
+.success-title {
+   margin-bottom: 100px;
+   max-width: 605px;
+}
+
+.purpose-title {
+   max-width: 400px;
+}
+
+.failures-title {
+   max-width: 605px;
+}
+
+.culture-title {
+   max-width: 499px;
+}
+
+.culture img {
+   width: 100%;
+   margin-bottom: 100px;
+}
+
+.images {
+   font-size: 0;
+}
+
+.woman,
+.black-clothes {
+   margin-right: 30px;
+}
+
+.success .images {
+   margin-bottom: 100px;
+}
+
+p {
+   margin-bottom: 30px;
+}
+
+/* Practice */
+
+.block1 {
+   width: 200px;
+   height: 250px;
+   background-color: blue;
+   border: 3px solid red;
+   outline: 2px solid green;
+}
+.block2 {
+   width: 200px;
+   height: 250px;
+   background-color: yellow;
+   display: none;
+}
+.block3 {
+   width: 200px;
+   height: 250px;
+   background-color: blue;
+   opacity: 0.4;
+   border-radius: 10px 25px 44px 12px;
+}
+.block4 {
+   width: 200px;
+   height: 200px;
+   background-color: green;
+   border-radius: 50%;
+}
+.block5 {
+   width: 200px;
+   height: 250px;
+   background-color: blue;
+   visibility: hidden;
+}
+.block6 {
+   width: 200px;
+   height: 250px;
+   background-color: blue;
+   box-shadow: 0px 0px 20px 0px #000;
+	box-shadow: inset 0px 0px 20px 0px #000;
+   overflow: hidden;
+   color: #fff;
+}
+
+.inline {
+   background-color: purple;
+   border-radius: 20%;
+}
