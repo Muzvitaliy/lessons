@@ -1,0 +1,49 @@
+@import url("reset.css");
+
+body {
+   font-family: "Lato";
+}
+
+h1, h2 {
+   margin-bottom: 30px;
+}
+
+h1 {
+   font-size: 35px;
+   font-weight: 900;
+   text-align: center;
+}
+
+h2 {
+   font-size: 28px;
+   font-weight: 900;
+}
+
+[class*="__container"] {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.icons {
+   background-color: rgb(0, 156, 117);
+   border: 2px solid rgb(0, 205, 133);
+   max-width: 750px;
+   padding: 30px;
+   margin-bottom: 30px;
+}
+
+img {
+   margin: 0 20px 20px 0;
+}
+
+.design-elements {
+   background-color: #c235ec;
+   border: 2px solid #6a1c82;
+   max-width: 750px;
+   padding: 30px;
+   margin-bottom: 30px;
+}
+
+.content-images img {
+   border-radius: 10px;
+}
