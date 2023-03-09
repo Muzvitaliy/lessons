@@ -1,0 +1,311 @@
+@import url("reset.css");
+
+/* VENCE landing */
+
+.details {
+   font-family: "Poppins", sans-serif;
+   padding: 330px 0 100px;
+   background: darkblue url("../img/building.png") center / cover no-repeat;
+}
+
+[class*="__container-big"] {
+   max-width: 1240px;
+   margin: 0 auto;
+}
+
+.details-content > * {
+	margin-bottom: 15px;
+}
+
+.details-content {
+   color: #E5E5E5;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 1.66;
+   max-width: 605px;
+}
+.details-date {
+   display: block;
+}
+
+.details-heading {
+   font-weight: 700;
+   font-size: 25px;
+   color: #F8F9FA;
+}
+
+.details-text {
+   max-width: 345px;
+}
+
+.details-content > *:last-child {
+	margin-bottom: 0px;
+}
+
+/* Components TailGrids landing */
+
+[class*="__container-small"] {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.unorder {
+   padding: 100px 0 150px;
+   font-family: "Inter", sans-serif;
+}
+
+.unorder-heading {
+   color: #212B36;
+   font-size: 26px;
+   font-weight: 400;
+   line-height: 1.1;
+   margin-bottom: 30px;
+}
+
+.unorder-lists {
+   border-top: 1px solid #000;
+   padding-top: 15px;
+}
+
+.unorder-lists > * {
+	margin-bottom: 60px;
+}
+
+.unorder-list > * {
+   margin-bottom: 18px;
+}
+
+.unorder-list {
+   max-width: 320px;
+   color: #637381;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 0.9;
+}
+
+.list1 li {
+   margin-left: 26px;
+}
+
+/* .list2 li,
+.list3 li,
+.list4 li,
+.list5 li,
+.list6 li {
+   margin-left: 32px;
+} */
+
+.unorder-lists:nth-child(n+2) li {
+   margin-left: 32px;
+}
+
+
+.list1 li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/dot-icon.svg") 0 0 no-repeat;
+	width: 8px;
+	height: 8px;
+	margin-left: -26px;
+	margin-right: 15px;
+}
+
+.list2 li::before {
+   content: "";
+	display: inline-block;
+	background: url("../img/blue-icon.svg") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-left: -32px;
+	margin-right: 8px;
+}
+
+.list3 li::before {
+   content: "";
+	display: inline-block;
+	background: url("../img/green-icon.svg") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-left: -32px;
+	margin-right: 8px;
+}
+
+.list4 li::before {
+   content: "";
+	display: inline-block;
+	background: url("../img/red-icon.svg") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-left: -32px;
+	margin-right: 8px;
+}
+
+.list5 li::before {
+   content: "";
+	display: inline-block;
+	background: url("../img/arrow.svg") 0 80% no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-left: -32px;
+	margin-right: 8px;
+}
+
+.list6 li::before {
+   content: "";
+	display: inline-block;
+	background: url("../img/star-icon.svg") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-left: -32px;
+	margin-right: 8px;
+}
+
+.unorder-list > *:last-child {
+   margin-bottom: 0px;
+}
+
+.unorder-lists > *:last-child {
+	margin-bottom: 0px;
+}
+
+
+/* Components TailGrids landing second part*/
+
+.speakers {
+   padding: 145px 0 146px;
+   background: url("../img/speaker.png") 73% center / 272px 396px no-repeat, url("../img/speakers-bg.png") center / cover no-repeat;
+   font-family: "Inter", sans-serif;
+}
+
+.speakers-content > * {
+   margin-bottom: 15px;
+}
+
+.speakers-price {
+   color: #3056D3;
+   font-size: 18px;
+   display: block;
+   font-weight: 600;
+   line-height: 1.33;
+   margin-bottom: 13px;
+}
+
+.speakers-content {
+   max-width: 570px;
+}
+
+.speakers-heading {
+   color: #212B36;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.25;
+   margin-bottom: 15px;
+}
+
+.speakers-text {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #637381;
+   margin-bottom: 35px;
+}
+
+.speakers-button {
+   color: #fff;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 1.5;
+   background-color: #3056D3;
+   border-radius: 30px;
+   text-align: center;
+   padding: 10px 28px;
+   border: 2px solid transparent;
+}
+
+.speakers-button:hover {
+   background-color: #fff;
+   color: #3056D3;
+   border: 2px solid #3056D3;
+}
+
+.speakers-button:visited {
+   background-color: purple;
+}
+
+.speakers-button:visited:hover {
+   background-color: purple;
+   color: #fff;
+   border-color: #fff;
+}
+
+.speakers-button:active {
+   background-color: #fff;
+   color: #3056D3;;
+   border: 5px solid #3056D3;
+}
+
+.speakers-content> *:last-child {
+   margin-bottom: 0px;
+}
+
+/* Practice */
+
+.practice-content div:first-child {
+   background: purple url("../img/speaker.png") center bottom / 50px 50px no-repeat;
+   width: 450px;
+   height: 200px;
+   border: 4px solid #000;
+   color: #fff;
+}
+
+.practice-content div:first-child::before {
+   content: "1";
+   display: inline-block;
+   color: #000;
+   padding: 15px 21px 15px;
+   font-size: 25px;
+   width: 50px;
+   height: 50px;
+   background-color: yellow;
+}
+
+.practice-content div:hover:first-child::before {
+	background-color: green;
+}
+
+.practice-content div:nth-child(2) {
+   background: blue url("../img/speaker.png") 30% top / 70px 70px no-repeat;
+   width: 250px;
+   height: 150px;
+   border: 2px solid green;
+   color: #fff;
+   background-attachment: scroll;
+   overflow: scroll;
+}
+
+.practice-content div:nth-child(2)::after {
+   content: "";
+   background: url("../img/building.png") center center / cover no-repeat;
+   width: 250px;
+   height: 150px;
+   display: block;
+}
+
+.practice-content div:nth-child(3) {
+   background: linear-gradient(55.95deg, #248322 0%, #df5f14 100%);
+   width: 650px;
+   height: 300px;
+   border: 2px solid green;
+   color: #fff;
+   padding: 100px;
+}
+
+.practice-content div:last-child {
+   background: rgb(142,14,49);
+   background: url("../img/speaker.png") center bottom / contain no-repeat, linear-gradient(56deg, rgba(142,14,49,1) 0%, rgba(88,2,134,1) 41%, rgba(4,119,194,1) 73%, rgba(0,212,255,1) 100%);;
+   width: 650px;
+   height: 300px;
+   border: 2px solid green;
+   color: #fff;
+   padding: 100px;
+}
