@@ -1,0 +1,18 @@
+.button {
+   display: inline-block;
+   font-weight: 500;
+   background: #212529;
+   color: #F8F9FA;
+   border-radius: 3px;
+   padding: 7px 50px;
+   line-height: 2;
+   transition: background-color 0.4s linear;
+}
+
+.button:hover {
+   background: #DDBEA9;
+}
+
+.button:active {
+   transform: scale(0.9);
+}
