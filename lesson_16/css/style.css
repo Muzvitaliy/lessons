@@ -63,7 +63,7 @@ body {
 }
 
 .checkout__input {
-   width: 335px;
+   flex: 0 1 335px;
 }
 
 .checkout__input input {
@@ -186,11 +186,15 @@ body {
    row-gap: 25px;
 }
 
+.coupon__input {
+   flex: 0 1 325px;
+}
+
 .coupon__input input {
    padding: 15px 25px;
    border-radius: 7px;
    outline: 1px solid #e7e7e7;
-   width: 325px;
+   width: 100%;
 }
 
 .coupon__btn {
