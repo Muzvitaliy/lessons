@@ -466,7 +466,8 @@ body {
 	flex: 0 1 45.95%;
 }
 
-.articles__date {
+.articles__date,
+.articles__title-link {
 	display: block;
 }
 
