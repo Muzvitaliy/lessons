@@ -57,6 +57,7 @@
    font-weight: 500;
    color: #C4C4C4;
    flex-wrap: wrap;
+   align-self: end;
 }
 
 .categories__item.active {
