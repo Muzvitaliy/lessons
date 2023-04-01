@@ -471,7 +471,7 @@ body {
 }
 
 .articles__date,
-.articles__title,
+.articles__title-link,
 .articles__text   {
 	margin-bottom: 15px;
 }
